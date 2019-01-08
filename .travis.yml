@@ -3,3 +3,10 @@ node_js:
   - stable
 install:
   - npm install
+deploy:
+  provider: lambda
+  function_name: "timetable"
+  region: "eu-central"
+  role: "arn:aws:iam::479157122075:role/lambda_basic_execution"
+  runtime: "nodejs8.10"
+  handler_name: "index.handler"
