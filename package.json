@@ -4,7 +4,6 @@
   "description": "AWS Lambda implementation of Public Transport API",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
   },
   "repository": {
     "type": "git",
