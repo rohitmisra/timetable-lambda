@@ -1,0 +1,22 @@
+{
+  "name": "timetable-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda implementation of Public Transport API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitmisra/timetable-lambda.git"
+  },
+  "author": "rohitmisra44",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitmisra/timetable-lambda/issues"
+  },
+  "homepage": "https://github.com/rohitmisra/timetable-lambda#readme",
+  "dependencies": {
+    "public-transport": "^1.0.14"
+  }
+}
