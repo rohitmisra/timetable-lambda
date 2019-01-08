@@ -9,4 +9,4 @@ deploy:
   region: "eu-central-1"
   role: "arn:aws:iam::479157122075:role/lambda_basic_execution"
   runtime: "nodejs8.10"
-  handler_name: "index.handler"
+  handler_name: "handler"
